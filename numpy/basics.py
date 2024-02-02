@@ -16,3 +16,5 @@ print(arr_2.size) # printing the size of the second array
 print(arr_1.itemsize) # printing the number of bytes of the array elements of the first array
 print(arr_2.itemsize) # printing the number of bytes of the array elements of the second array
 
+arr_3 = np.arange(4) # [0, 1, 2, 3]
+print(arr_3)
