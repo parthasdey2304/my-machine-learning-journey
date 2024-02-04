@@ -48,6 +48,22 @@ b = 10
 a = 5; b = 10
 ```
 
+### Comments
+Comments are lines of statements that are ignored by the python interpreter while execution of the program.
+There are two ways of writting comments : 
++ `Single line comments` : Using hastags' # ' in the beginning of the line makes a single line comment.
+``` py
+# This is a single line comment
+a = 5 # assigning 5 to the variable a
+```
+
++ `Multi-line comments` : Using triple single quotes or triple double quotes before the starting and at the ending of the statement.
+``` py
+''' This is a multi-line comment
+You can even use Triple double quotes """
+for making multi-line comments
+```
+
 ### Data Types
 + `Integer(int)` : Represents whole numbers without any fractional part, such as 5, -10, 1000, etc.
 + `Float(float)` : Represents real numbers with both integer and fractional parts, such as 3.14, -0.001, 2.0, etc.
@@ -60,3 +76,36 @@ a = 5; b = 10
 + `NoneType(None)` : Represents the absence of a value or a null value.
 
 These are the primary built-in data types in Python. Additionally, Python allows for defining custom data types using classes and objects.
+
+### Operators
+There are a few types of operators in Python :
+#### Assignment Operator : 
+Assignment operator is used to assign values to a variable.
+``` py
+a = 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
