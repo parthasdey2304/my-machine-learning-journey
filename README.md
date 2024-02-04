@@ -62,6 +62,7 @@ a = 5 # assigning 5 to the variable a
 ''' This is a multi-line comment
 You can even use Triple double quotes """
 for making multi-line comments
+'''
 ```
 
 ### Data Types
@@ -87,33 +88,51 @@ a = 5
 
 #### Arithmatic Operator : 
 These are the operators that perform mathematical calculations in python : 
-+ `sum` : This is used to add two numbers `+`.
-``` py
-sum = 5 + 4
-```
-+ `difference` : This is used to subtract two numbers `-`.
-``` py
-difference = 10 - 4
-```
-+ `product` : This is used to multiply two numbers `*`.
-``` py
-product = 3 * 4
-```
-+ `quotient` :  This is used to divide two numbers and get the quotient `/`.
-``` py
-quotient = 10 / 2
-```
-+ `remainder` : This is used to divide two numbers and get the remainder `%`.
-``` py
-remainder = 17 % 3
-```
-+ `exponent` :  This is used to get a number raised to the power of its exponenet `**`.
-``` py
-raised_to_power = 2 ** 5
-```
+| Operation   | Description                         | Operator | Example            |
+|-------------|-------------------------------------|----------|--------------------|
+| `sum`       | Add two numbers                     | `+`      | `sum = 5 + 4`      |
+| `difference`| Subtract two numbers                | `-`      | `difference = 10 - 4` |
+| `product`   | Multiply two numbers                | `*`      | `product = 3 * 4`  |
+| `quotient`  | Divide two numbers (get quotient)   | `/`      | `quotient = 10 / 2`|
+| `remainder` | Divide two numbers (get remainder)  | `%`      | `remainder = 17 % 3`|
+| `exponent`  | Get a number raised to the power of its exponent | `**` | `raised_to_power = 2 ** 5`|
 
-#### Relational Operator
+
+#### Relational Operator : 
 This is used to compare two data values : 
+| Name              | Sign  | Usage                 | Example             |
+|-------------------|-------|-----------------------|---------------------|
+| Equal to          | ==    | Equality comparison   | x == y              |
+| Not equal to      | !=    | Inequality comparison | x != y              |
+| Greater than      | >     | Greater than comparison | x > y              |
+| Less than         | <     | Less than comparison  | x < y               |
+| Greater than or equal to | >= | Greater than or equal comparison | x >= y     |
+| Less than or equal to    | <= | Less than or equal comparison | x <= y          |
+
+#### Logical Operator : 
+| Operation    | Description                                | Symbol | Example                  |
+|--------------|--------------------------------------------|--------|--------------------------|
+| `and`        | Logical AND operator                       | `and`  | `result = True and False`|
+| `or`         | Logical OR operator                        | `or`   | `result = True or False` |
+| `not`        | Logical NOT operator                       | `not`  | `result = not True`      |
+
+#### Bitwise Operator
+| Operation   | Description                           | Symbol | Example                    | Output    |
+|-------------|---------------------------------------|--------|----------------------------|-----------|
+| `AND`       | Bitwise AND                           | `&`    | `result = 5 & 3`           | `result`  |
+| `OR`        | Bitwise OR                            | `|`    | `result = 5 \| 3`          | `result`  |
+| `XOR`       | Bitwise XOR                           | `^`    | `result = 5 ^ 3`           | `result`  |
+| `NOT`       | Bitwise NOT (One's complement)        | `~`    | `result = ~5`              | `result`  |
+| `Left Shift`| Shift left by pushing zeros in         | `<<`   | `result = 5 << 2`          | `result`  |
+| `Right Shift`| Shift right by pushing copies in     | `>>`   | `result = 5 >> 2`          | `result`  |
+
+#### Identitiy Operator
+| Operator  | Description                          | Symbol | Example                    |
+|-----------|--------------------------------------|--------|----------------------------|
+| `is`      | Evaluates if both sides are identical objects | `is`   | `result = x is y`          |
+| `is not`  | Evaluates if both sides are not identical objects | `is not` | `result = x is not y`   |
+
+### F-strings
 
 
 
